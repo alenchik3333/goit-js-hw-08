@@ -74,7 +74,7 @@ function createMarkup(arr) {
   <a class="gallery-link" href="${original}">
     <img
       class="gallery-image"
-      src="${preview}" 
+      src="${preview}"
       data-source="${original}"
       alt="${description}"
     />
@@ -104,7 +104,7 @@ function handlerGetImage(evt) {
 	<div class="modal">
     <img
       class="gallery-image-modal"
-      data-source="${currentImage}"
+      src="${currentImage}"
     />
         <p>${currentName}</p>
     </div>
