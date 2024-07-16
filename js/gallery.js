@@ -109,5 +109,5 @@ function handlerGetImage(evt) {
         <p>${currentName}</p>
     </div>
 `);
-  modal.show();
+  instance.show();
 }
